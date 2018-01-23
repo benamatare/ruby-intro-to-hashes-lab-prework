@@ -11,6 +11,7 @@ end
 def monopoly
   hash = {
     :railroads {
-      
+
     }
   }
+end
