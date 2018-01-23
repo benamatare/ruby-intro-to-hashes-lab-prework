@@ -10,7 +10,7 @@ end
 
 def monopoly
   hash = {
-    :railroads {
+    :railroads => {
 
     }
   }
