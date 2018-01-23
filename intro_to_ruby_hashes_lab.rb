@@ -1,32 +1,39 @@
+
 def new_hash
-  hash = {}
+  hash ={}
   hash
 end
 
 def actor
-actor_hash = {name: "Dwayne The Rock Johnson"}
+  hash = {
+    :name => "Dwayne The Rock Johnson"
+  }
 end
 
 def monopoly
-	monopoly = {
-    :railroads => {}
-}
-
-
+  hash = {
+    :railroads => {
+    }
+  }
 end
 
 def monopoly_with_second_tier
-  monopoly = {
+  hash = {
     :railroads => {
       :pieces => 4,
-      :names => {},
-      :rent_in_dollars => {}
+      :names => {
+
+      },
+      :rent_in_dollars => {
+
+      }
     }
-}
+  }
 end
 
+
 def monopoly_with_third_tier
-  monopoly = {
+  hash = {
     :railroads => {
       :pieces => 4,
       :names => {
@@ -42,25 +49,25 @@ def monopoly_with_third_tier
         :four_pieces_owned => 200
       }
     }
-}
+  }
 end
 
 def monopoly_with_fourth_tier
-  monopoly = {
+  hash = {
     :railroads => {
       :pieces => 4,
       :names => {
         :reading_railroad => {
-          "mortgage_value" => '$100'
+          "mortgage_value" => "$100"
         },
         :pennsylvania_railroad => {
-            "mortgage_value" => '$200'
+            "mortgage_value" => "$200"
         },
         :b_and_o_railroad => {
-            "mortgage_value" => '$400'
+            "mortgage_value" => "$400"
         },
         :shortline => {
-            "mortgage_value" => '$800'
+            "mortgage_value" => "$800"
         }
       },
       :rent_in_dollars => {
@@ -70,6 +77,5 @@ def monopoly_with_fourth_tier
         :four_pieces_owned => 200
       }
     }
-}
-
+  }
 end
